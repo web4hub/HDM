@@ -81,4 +81,3 @@ model SpaceCapture {
         interactive: true
     }
 }
-
