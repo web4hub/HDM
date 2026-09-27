@@ -1,0 +1,8 @@
+...
+dependency "vibe-d" version="~>0.9.5"
+
+dependency "localdep" path="../localdep" optional=true default=true
+dependency "remote" repository="git+https://example.org/remote.git" version="a1b2c3d4"
+dependency "modified" version="~>1.2.3" {
+    dflags "--special-flag" "-O4"
+}
