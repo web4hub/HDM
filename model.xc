@@ -1,4 +1,4 @@
-dm 0.1
+dm 0.1 
 
 model SpaceCapture {
 
