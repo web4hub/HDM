@@ -1,0 +1,29 @@
+------------------
+            2   _D3std5stdio__T7writelnTAyaZQnFNfQjZv
+_D3std5stdio4File17LockingTextWriter__T3putTAyaZQjMFNfMQlZv     2       29188   14552
+            1   _D3std5stdio__T13trustedFwriteTaZQsFNbNiNePOS4core4stdcQBx8_IO_FILExAaZm
+------------------
+            1   _D3std5stdio__T7writelnTAyaZQnFNfQjZv
+_D3std5stdio4File17LockingTextWriter__T3putTaZQhMFNfaZv 1       27708   27708
+------------------
+            1   _D3std5stdio4File17LockingTextWriter__T3putTAyaZQjMFNfMQlZv
+_D3std5stdio__T13trustedFwriteTaZQsFNbNiNePOS4core4stdcQBx8_IO_FILExAaZm        1       14636   14636
+------------------
+            2   _Dmain
+_D3std5stdio__T7writelnTAyaZQnFNfQjZv   2       122977  66081
+            2   _D3std5stdio4File17LockingTextWriter__T3putTAyaZQjMFNfMQlZv
+            1   _D3std5stdio4File17LockingTextWriter__T3putTaZQhMFNfaZv
+------------------
+_Dmain  0       123571  594
+            2   _D3std5stdio__T7writelnTAyaZQnFNfQjZv
+
+======== Timer frequency unknown, Times are in Megaticks ========
+
+  Num          Tree        Func        Per
+  Calls        Time        Time        Call
+
+      2           0           0           0     @safe void std.stdio.writeln!(immutable(char)[]).writeln(immutable(char)[])
+      1           0           0           0     @safe void std.stdio.File.LockingTextWriter.put!(char).put(char)
+      1           0           0           0     nothrow @nogc @trusted ulong std.stdio.trustedFwrite!(char).trustedFwrite(shared(core.stdc.stdio._IO_FILE)*, const(char[]))
+      2           0           0           0     @safe void std.stdio.File.LockingTextWriter.put!(immutable(char)[]).put(scope immutable(char)[])
+      1           0           0           0     _Dmain
