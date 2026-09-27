@@ -1,0 +1,18 @@
+...
+"dependencies": {
+    "vibe-d": "~>0.9.5",
+
+    "localdep": {
+        "path": "../localdep",
+        "optional": true,
+        "default": true
+    },
+    "remote": {
+        "repository": "git+https://example.org/remote.git",
+        "version": "1.0.0"
+    },
+    "modified": {
+        "version": "~>1.0.0",
+        "dflags": ["--special-flag", "-O4"]
+    }
+}
